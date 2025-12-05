@@ -1,0 +1,94 @@
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  padding: 150px 20px 50px 20px;
+  background-image: radial-gradient(
+      circle,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("/img/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.input {
+  width: 390px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.input:focus {
+  box-shadow: 0 0 0px 3px #ffb700;
+}
+
+.fileInput {
+  width: 390px;
+  height: 44px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  font-size: 16px;
+  background: #ffffff;
+}
+
+.button {
+  margin-top: 30px;
+  display: inline-block;
+  padding: 10px 24px;
+  background: #ffb700;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 15px;
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.successBox {
+  padding: 40px;
+  text-align: center;
+}
+
+.successBox h1 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .form {
+    width: 90%;
+    text-align: center;
+    padding: 180px 20px 50px 20px;
+  }
+
+  .input {
+    width: 100%;
+  }
+
+  .fileInput {
+    width: 100%;
+  }
+}
