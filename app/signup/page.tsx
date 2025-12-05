@@ -29,8 +29,8 @@ export default function SignupPage() {
   if (success) {
     return (
       <div className={styles.successBox}>
-        <h1>Registration Successful 🎉</h1>
-        <p>We received your signup!</p>
+        <h1>ثبت نام با موفقیت انجام شد 🎉</h1>
+        <p>اطلاعاتت رو دریافت کردیم.</p>
       </div>
     );
   }
