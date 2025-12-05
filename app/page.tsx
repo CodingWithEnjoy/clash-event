@@ -83,7 +83,8 @@ export default function Home() {
             <EmojiProvider data={emojiData}>
               <Emoji name="money-with-wings" width={20} />
             </EmojiProvider>
-            جایزه برنده <span>500 هزار تومان</span> می باشد.
+            جایزه برنده <span>+400 هزار تومان</span> می باشد و جایزه نفر دوم
+            <span>+150 هزار تومان</span> می باشد.
           </p>
 
           <p>
